@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MovieSite</title>
+</head>
+<body>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+          font-family: Arial;
+          font-size: 17px;
+        }
+        
+        #myVideo {
+          position: fixed;
+          right: 0;
+          bottom: 0;
+          min-width: 100%; 
+          min-height: 100%;
+        }
+        
+        .content {
+          position: fixed;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.5);
+          color: #f1f1f1;
+          width: 100%;
+          padding: 20px;
+        }
+        
+        #myBtn {
+          width: 200px;
+          font-size: 18px;
+          padding: 10px;
+          border: none;
+          background: #000;
+          color: #fff;
+          cursor: pointer;
+        }
+        
+        #myBtn:hover {
+          background: #ddd;
+          color: black;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <video autoplay muted loop id="myVideo">
+          <source src="The Godfather Part 1 - The Meeting.mp4" type="video/mp4">
+        </video>
+        
+        
+        <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
+
+        <button class="featured-button">WATCH NOW</button>
+    <section>
+    <div class="movie-list-container">
+        <h1 class="movie-list-title">Trending</h1>
+        <div class="movie-list-wrapper">
+          <div class="movie-list">
+      
+            <div class="movie-list-item">
+                <a href="https://youtu.be/TnGl01FkMMo?si=ZQj1DG8k3Y3Jylmo"><img class="movie-list-img" src="./assets/mariop.jpg" alt=""></a>
+                 
+              <span class="movie-list-item-title">MARIO</span>
+              <p class="moe-list-item-button">A plumber named Mario travels through an underground labyrinth with his brother Luigi, trying to save a captured princess.</p></button>
+            </div>
+            
+            <div class="movie-list-item">
+                <a href="https://youtu.be/eQfMbSe7F2g?si=CgGpPCgq_lcbitE9"><img class="movie-list-img" src="./assets/NJ.jpg" alt=""></a>
+                <span class="movie-list-item-title">INDIAN JONES</span>
+                <p class="movie-list-item-button">Archaeologist Indiana Jones races against time to retrieve a legendary artifact that can change the course of history.</p></button>
+
+                </div>
+
+            
+            <div class="movie-list-item">
+                <a href="https://youtu.be/dJTU48_yghs?si=5jfWHG6PGjYaXlIM"><img class="movie-list-img" src="./assets/her.jpg" alt=""></a>
+              <span class="movie-list-item-title">Her</span>
+              <p class="movie-list-item-button">In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.</p></button>
+            </div>
+
+            
+            <div class="movie-list-item">
+                <a href="https://youtu.be/_InqQJRqGW4?si=NMa0ibK4CRSkHPpf"><img class="movie-list-img" src="./assets/money.jpg" alt=""></a>
+                <span class="movie-list-item-title">MONEY HEIST</span>
+                <p class="movie-list-item-button">An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.</p></button>
+              </div>
+
+    </section>
+    <div class="container">
+        <div class="content-container">
+          <div class="featured-content" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url('img/johnwick.jpg');"> 
+            <img class="featured-title" src="./assets/T1.jpg" alt="">
+            <p class="featured-desc">In "John Wick: Chapter 4," the relentless assassin returns with a vengeance. As the story unfolds, Wick finds himself entangled in a web of betrayal and conspiracy that spans the globe. With his legendary combat skills and unmatched determination, he embarks on a high-octane journey filled with jaw-dropping action sequences and heart-pounding suspense. Along the way, he crosses paths with old allies and new adversaries, all while seeking answers and redemption. The fourth chapter in this iconic franchise promises to deliver an adrenaline-fueled cinematic experience that will leave viewers on the edge of their seats, eager for more.</p>
+            <a href="https://youtu.be/qEVUtrk8_B4?si=HdLXvyZGV4maMtJa"><button class="featured-button">WATCH NOW</button></a>
+          </div>
+
+    <section>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">POPOLAR</h1>
+            <div class="movie-list-wrapper">
+              <div class="movie-list">
+          
+                <div class="movie-list-item">
+                    <a href="https://youtu.be/T3mwUEoZdrI?si=wW0nYVI9YkrMU8bA"><img class="movie-list-img" src="./assets/Fatherhood.jpg" alt=""></a>
+                  <span class="movie-list-item-title"></span>
+                  <p class="moe-list-item-button">A father brings up his baby girl as a single dad after the unexpected death of his wife who died a day after their daughter's birth.</p></button>
+                </div>
+                
+                <div class="movie-list-item">
+                    <a href="https://youtu.be/dJTU48_yghs?si=5jfWHG6PGjYaXlIM"><img class="movie-list-img" src="./assets/her.jpg" alt=""></a>
+                    <span class="movie-list-item-title"></span>
+                    <p class="movie-list-item-button"></button>
+    
+                    </div>
+    
+                
+                <div class="movie-list-item">
+<a href="https://youtu.be/qEVUtrk8_B4?si=IaSjfg1YIIfglma0"><img class="movie-list-img" src="./assets/\/johnwick.jpg" alt=""></a>
+                  <span class="movie-list-item-title"></span>
+                  <p class="movie-list-item-button">In "John Wick: Chapter 4," the relentless assassin returns with a vengeance.</p></button>
+                </div>
+    
+                
+                <div class="movie-list-item">
+                    <a href="https://youtu.be/_InqQJRqGW4?si=NMa0ibK4CRSkHPpf"><img class="movie-list-img" src="./assets/money.jpg" alt=""></a>
+                    <span class="movie-list-item-title"></span>
+                    <p class="movie-list-item-button"></button>
+                  </div>
+    
+        </section>
+
+        <div class="content">
+            <h1></h1>
+            <p></p>
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+          </div>
+    
+
+
+             
+<a href="https://github.com/Mikemike8">MY GITHUB</a>
+ 
+</body>
+</html>
